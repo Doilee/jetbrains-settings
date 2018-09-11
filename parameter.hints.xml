@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="PHP">
+        <added pattern="\Illuminate\Database\Eloquent\Builder.where(column,operator,value,boolean)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>

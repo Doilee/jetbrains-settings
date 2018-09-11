@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubSettings">
+    <option name="LOGIN" value="Doilee" />
+    <option name="HOST" value="doilee@github.com" />
+    <option name="AUTH_TYPE" value="BASIC" />
+  </component>
+</application>
