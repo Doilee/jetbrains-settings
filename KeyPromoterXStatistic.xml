@@ -142,7 +142,7 @@
           <IdeaActionID>FindInPath</IdeaActionID>
           <ShortCut>'⇧⌘F'</ShortCut>
           <Description>Find in Path...</Description>
-          <Count>395</Count>
+          <Count>397</Count>
         </Item>
       </Statistic>
       <Statistic Action="Generate...">
