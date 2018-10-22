@@ -1,0 +1,9 @@
+<keymap version="1" name="Default copy 1" parent="Mac OS X 10.5+">
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="f1" />
+    <mouse-shortcut keystroke="control button2" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
+</keymap>
