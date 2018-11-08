@@ -89,6 +89,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'CrudTest.testCrud'">
+        <Item>
+          <IdeaActionID>DebugClass</IdeaActionID>
+          <ShortCut>'⌃⇧D'</ShortCut>
+          <Description>Debug 'CrudTest.testCrud'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'ProvideFeedbackGiver...'">
         <Item>
           <IdeaActionID>DebugClass</IdeaActionID>
