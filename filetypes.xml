@@ -4,6 +4,7 @@
       <mapping pattern=".env.testing" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="asdf" type="PLAIN_TEXT" />
+      <mapping ext="ods" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
