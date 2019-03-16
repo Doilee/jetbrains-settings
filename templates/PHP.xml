@@ -1,0 +1,9 @@
+<templateSet group="PHP">
+  <template name="crud" value="/**&#10; * Display a listing of the resource.&#10; *&#10; * @param  Request  $request&#10; *&#10; * @return APIResponse&#10; */&#10;public function index(Request $request)&#10;{&#10;    return $CLASS$::all();&#10;}&#10;&#10;/**&#10; * Display the specified resource.&#10; *&#10; * @param  $CLASS$ $VARIABLE$&#10; *&#10; * @return $CLASS$&#10; */&#10;public function show($CLASS$ $VARIABLE$)&#10;{&#10;    return $VARIABLE$;&#10;}&#10;&#10;/**&#10; * Store a model into the database.&#10; *&#10; * @param  Request  $request&#10; *&#10; * @return SuccessfulAPIResponse&#10; */&#10;public function store(Request $request)&#10;{&#10;    $CLASS$::create($request-&gt;all());&#10;    &#10;    return new SuccessfulAPIResponse;&#10;}&#10;&#10;/**&#10; * Update a model in the database.&#10; *&#10; * @param  $CLASS$ $VARIABLE$&#10; * @param  Request  $request&#10; *&#10; * @return SuccessfulAPIResponse&#10; */&#10;public function update($CLASS$ $VARIABLE$, Request $request)&#10;{&#10;    $VARIABLE$-&gt;update($request-&gt;all());&#10;    &#10;    return new SuccessfulAPIResponse;&#10;}&#10;&#10;/**&#10; * Delete a model in the database.&#10; *&#10; * @param  $CLASS$ $VARIABLE$&#10; *&#10; * @return SuccessfulAPIResponse&#10; * @throws \Exception&#10; */&#10;public function destroy($CLASS$ $VARIABLE$)&#10;{&#10;    $VARIABLE$-&gt;delete();&#10;    &#10;    return new SuccessfulAPIResponse;&#10;}" description="Creates all CRUD shizzle for Laravel in PSR-2" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="Model" alwaysStopAt="true" />
+    <variable name="VARIABLE" expression="" defaultValue="$model" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>
