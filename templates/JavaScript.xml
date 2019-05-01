@@ -1,0 +1,10 @@
+<templateSet group="JavaScript">
+  <template name="dd" value="console.log($END$)" shortcut="ENTER" description="console.log() statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CoffeeScript" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>
