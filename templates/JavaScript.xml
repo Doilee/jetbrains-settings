@@ -8,4 +8,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="cl" value="console.log($LOG$)&#10;$END$" description="console.log() expresssion" toReformat="false" toShortenFQNames="true">
+    <variable name="LOG" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
 </templateSet>
