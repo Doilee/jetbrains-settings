@@ -750,7 +750,7 @@
           <IdeaActionID>$SelectAll</IdeaActionID>
           <ShortCut>'⌘A'</ShortCut>
           <Description>Select All</Description>
-          <Count>5</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Image Thumbnails">
